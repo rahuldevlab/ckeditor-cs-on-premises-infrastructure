@@ -18,6 +18,10 @@ Create unified labels for ckeditor-cs
 {{- define "ckeditor-cs.common.matchLabels" -}}
 app.kubernetes.io/name: {{ template "ckeditor-cs.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
+{{- with .Values.commonLabels }}
+{{ toYaml . | nindent 0 }}
+
+{{- end }}
 {{- end }}
 
 {{- define "ckeditor-cs.common.metaLabels" -}}

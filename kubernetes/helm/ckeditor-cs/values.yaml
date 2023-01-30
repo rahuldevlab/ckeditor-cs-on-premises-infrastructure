@@ -5,6 +5,9 @@ imagePullSecrets:
 ## Override for fullname template
 nameOverride: ""
 
+## Add labels to all the deployed resources
+commonLabels: {}
+
 server:
   ## Name of the server component container
   name: server
