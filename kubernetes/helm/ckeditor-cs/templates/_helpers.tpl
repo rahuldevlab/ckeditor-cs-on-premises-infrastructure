@@ -21,7 +21,6 @@ app.kubernetes.io/instance: {{ .Release.Name }}
 application: {{ .Values.application | quote }}
 environment-name: {{ .Values.environment | quote }}
 {{- end }}
-{{- end }}
 
 {{- define "ckeditor-cs.common.metaLabels" -}}
 helm.sh/chart: {{ template "ckeditor-cs.chart" . }}
