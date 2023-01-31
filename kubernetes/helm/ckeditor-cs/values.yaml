@@ -56,6 +56,8 @@ server:
       DATABASE_HOST: ""
       DATABASE_USER: ""
       DATABASE_PASSWORD: ""
+      DATABASE_DATABASE: "ckeditor_cs"
+      DATABASE_SCHEMA: "cs-on-premises"
       REDIS_HOST: ""
       ENVIRONMENTS_MANAGEMENT_SECRET_KEY: ""
       LICENSE_KEY: ""
