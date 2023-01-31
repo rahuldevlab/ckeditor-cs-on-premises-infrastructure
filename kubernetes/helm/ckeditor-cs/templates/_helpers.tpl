@@ -19,7 +19,7 @@ Create unified labels for ckeditor-cs
 app.kubernetes.io/name: {{ template "ckeditor-cs.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 application: {{ .Values.application | quote }}
-environment-name: {{ .Values.environment | quote }}
+environment: {{ .Values.environment | quote }}
 {{- end }}
 
 {{- define "ckeditor-cs.common.metaLabels" -}}
