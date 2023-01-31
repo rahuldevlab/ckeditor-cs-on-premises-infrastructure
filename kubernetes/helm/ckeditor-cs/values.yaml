@@ -1,6 +1,6 @@
 ## Name of the secret containing container registry authentication data
 imagePullSecrets:
-  - name: docker-cke-cs-com
+  - name: cs-docker-secrets
 
 ## Override for fullname template
 nameOverride: ""
