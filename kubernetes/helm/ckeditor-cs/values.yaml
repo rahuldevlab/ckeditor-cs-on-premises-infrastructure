@@ -62,8 +62,6 @@ server:
       REDIS_TLS_ENABLE: "true"
       ENVIRONMENTS_MANAGEMENT_SECRET_KEY: ""
       LICENSE_KEY: ""
-      STORAGE_DRIVER: ""
-      STORAGE_LOCATION: ""
 
   service:
     type: ClusterIP
