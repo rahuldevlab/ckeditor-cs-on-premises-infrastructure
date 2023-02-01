@@ -60,6 +60,8 @@ server:
       DATABASE_SCHEMA: "cke-cs"
       REDIS_HOST: ""
       REDIS_TLS_ENABLE: "true"
+      REDIS_DB: "2"
+      REDIS_DISABLE_DNS_LOOKUP: "true"
       ENVIRONMENTS_MANAGEMENT_SECRET_KEY: ""
       LICENSE_KEY: ""
 
