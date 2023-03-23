@@ -63,6 +63,7 @@ server:
       REDIS_DISABLE_DNS_LOOKUP: "true"
       ENVIRONMENTS_MANAGEMENT_SECRET_KEY: ""
       LICENSE_KEY: ""
+      APPLICATION_EXTERNAL_ENDPOINT: ""
 
   service:
     type: NodePort
