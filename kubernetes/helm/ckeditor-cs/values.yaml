@@ -6,7 +6,7 @@ imagePullSecrets:
 nameOverride: ""
 
 # Osttra Specific Application Name
-application: ""
+application: "dms"
 environment: ""
 
 server:
@@ -14,7 +14,7 @@ server:
   name: server
 
   ## Number of desired collaboration server instances
-  replicaCount: 2
+  replicaCount: 1
 
   ## Collaboration server container image
   image:
@@ -64,6 +64,7 @@ server:
       ENVIRONMENTS_MANAGEMENT_SECRET_KEY: ""
       LICENSE_KEY: ""
       APPLICATION_EXTERNAL_ENDPOINT: ""
+      DATABASE_DRIVER: "postgres"
 
   service:
     type: NodePort
