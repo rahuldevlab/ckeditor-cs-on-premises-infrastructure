@@ -65,6 +65,7 @@ server:
       LICENSE_KEY: ""
       APPLICATION_EXTERNAL_ENDPOINT: ""
       DATABASE_DRIVER: "postgres"
+      DATABASE_PORT: "5432"
 
   service:
     type: NodePort
